@@ -1,0 +1,107 @@
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #f5f6fa;
+    margin: 0;
+    padding: 0;
+  }
+  .navbar {
+    background: #1976d2;
+    color: #fff;
+    padding: 0.75rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .navbar-brand {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.3rem;
+  }
+  .navbar-links a, .navbar-links button {
+    color: #fff;
+    margin-left: 1rem;
+    text-decoration: none;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .navbar-links .navbar-user {
+    margin-left: 1rem;
+    font-style: italic;
+  }
+  .container {
+    background: #fff;
+    border-radius: 6px;
+    margin: 2rem auto;
+    padding: 2rem;
+    max-width: 800px;
+    box-shadow: 0 2px 8px rgba(30, 42, 80, 0.08);
+  }
+  .table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  .table th, .table td {
+    padding: 0.5rem 1rem;
+    border-bottom: 1px solid #eee;
+  }
+  .table th {
+    background: #f0f4fa;
+    text-align: left;
+  }
+  .form-group {
+    margin-bottom: 1.25rem;
+  }
+  .form-control {
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #b8c1ec;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 0.25rem;
+    box-sizing: border-box;
+  }
+  .form-control:focus {
+    border-color: #1976d2;
+    outline: none;
+  }
+  .form-error {
+    color: #b3261e;
+    margin-bottom: 1rem;
+  }
+  .btn {
+    padding: 0.5rem 1.25rem;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+  }
+  .btn-primary {
+    background: #1976d2;
+    color: #fff;
+    transition: background 0.15s;
+  }
+  .btn-primary:hover {
+    background: #1565c0;
+  }
+  .btn-danger {
+    background: #d32f2f;
+    color: #fff;
+  }
+  .btn-danger:hover {
+    background: #b3261e;
+  }
+  .btn-sm {
+    padding: 0.3rem 0.7rem;
+    font-size: 0.95rem;
+  }
+  a {
+    color: #1976d2;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
